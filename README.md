@@ -1,2 +1,2 @@
-# Fragrance-Price-Scout
+# Fragrance-Price-Finder
 Fragrance Webscraping Full Stack Application
