@@ -1,14 +1,10 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-// const mysql = require('mysql');
+const cors = require("cors");
 
-// const db = mysql.createConnection({
-//     user: "root",
-//     host: "localhost",
-//     password: "",
-//     database: "fragrances",
-// });
+app.use(cors());
+app.use(express.json());
 
 app.listen(3001, () => {
-    console.log("Listening on port 3001");
+	console.log("Listening on port 3001");
 });
